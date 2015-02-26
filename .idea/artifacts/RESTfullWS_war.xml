@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="RESTfullWS:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="RESTfullWS.war">
+      <element id="artifact" artifact-name="RESTfullWS:war exploded" />
+    </root>
+  </artifact>
+</component>

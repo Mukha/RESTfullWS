@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2418516215">
+    <data-source source="LOCAL" name="jpa" uuid="609e76f0-450c-478d-ad9f-27dfdc6a929e">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/orpss_hibernate_prototype</jdbc-url>
+      <user-name>NewsLetter1</user-name>
+      <user-password>dfc5dfdadfdedfc3dfc3dfc4dfcedfc3dfcbdf98df9adf9bdf98</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Derby - sun-appserv-samples@localhost" uuid="93e879dd-5bba-42d3-b8a7-49c78d38521e">
+      <driver-ref>derby.remote</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.apache.derby.jdbc.ClientDriver</jdbc-driver>
+      <jdbc-url>jdbc:derby://localhost:1527/sun-appserv-samples</jdbc-url>
+      <schema-pattern>*.APP</schema-pattern>
+      <default-schemas>*.APP</default-schemas>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
