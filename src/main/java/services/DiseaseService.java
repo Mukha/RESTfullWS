@@ -20,4 +20,8 @@ public class DiseaseService {
         TypedQuery<Disease> query = entityManager.createQuery("select d from Disease d", Disease.class);
         return query.getResultList();
     }
+
+    public Disease getDisease(int id) {
+        return entityManager.find(Disease.class, id);
+    }
 }

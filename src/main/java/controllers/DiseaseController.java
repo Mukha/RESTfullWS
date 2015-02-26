@@ -29,4 +29,11 @@ public class DiseaseController {
         }
         return builder.build();
     }
+
+    @Path("{id}")
+    @GET
+    @Produces("application/json")
+    public Disease getDisease(@PathParam("id") int id) {
+        return diseaseService.getDisease(id);
+    }
 }
